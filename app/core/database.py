@@ -9,6 +9,6 @@ engine = create_engine(os.getenv("DATABASE_URL"))
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-#bas
+#ba
 Base = declarative_base()
 
